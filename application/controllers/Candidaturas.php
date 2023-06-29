@@ -52,7 +52,7 @@
     public function editar($id_can){
       $data["canEdit"]=$this->CandidaturaModel->obtenerPorId($id_can);
       $this->load->view('header');
-      $this->load->view('Candidaturas/editar',$data);
+      $this->load->view('candidaturas/editar', $data);
       $this->load->view('footer');
     }
 
