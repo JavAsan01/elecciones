@@ -1,21 +1,4 @@
 <footer>
-
-  <!-- controlar que nno salga cuando refresoc los sms -->
-  <?php if ($this->session->flashdata("confirmacion")):?>
-    <script type="text/javascript">
-        toastr.success("<?php echo $this->session->flashdata("confirmacion"); ?>");
-    </script>
-    <?php $this->session->set_flashdata("confirmacion", "") ?>
-  <?php endif; ?>
-
-
-  <!-- ERRO -->
-  <?php if ($this->session->flashdata("error")):?>
-    <script type="text/javascript">
-        toastr.error("<?php echo $this->session->flashdata("error"); ?>");
-    </script>
-    <?php $this->session->set_flashdata("error", "") ?>
-  <?php endif; ?>
   
     <!--? Footer Start-->
     <div class="footer-area section-bg" data-background="<?php echo base_url(); ?>/assets/img/gallery/footer_bg.png">

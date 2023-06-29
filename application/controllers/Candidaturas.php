@@ -70,9 +70,9 @@
       );
       $id_can=$this->input->post("id_can");
       if ($this->CandidaturaModel->actualizar($id_can, $datosEditados)) {
-        $this->session->set_flashdata("confirmacion","Candidato actualizado exitosamente");
+        // $this->session->set_flashdata("confirmacion","Candidato actualizado exitosamente");
       } else {
-        $this->session->set_flashdata("error","Error al actualizar intente de nuevo");
+        // $this->session->set_flashdata("error","Error al actualizar intente de nuevo");
       }
       redirect("Candidaturas/lista");
     }
