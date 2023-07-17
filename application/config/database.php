@@ -75,8 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'javasan',
+	'hostname' => 'database-1-instance-1.c7ngsulgxpns.us-east-2.rds.amazonaws.com',
+	'username' => 'admin',
 	'password' => '20010715',
 	'database' => 'elecciones',
 	'dbdriver' => 'mysqli',
